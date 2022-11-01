@@ -49,90 +49,99 @@ const modalArray = {
     ],
     "recherche" : "dev"
 },
-"square" : {
-    "titre" : "Portfolio Universitaire",
-    "soustitre" : "Travaux et compétences universitaires",
-    "description" : "Un site réalisé dans le cadre de ma formation en MMI à l'IUT de Troyes, sur lequel sont répertoriés tous mes travaux, en liens avec les enseignements du référentiel MMI.",
-    "lien" : "https://mmi21g01.mmi-troyes.fr/portfolio_universitaire",
+"monopoly" : {
+    "titre" : "Monopoly : The Office",
+    "soustitre" : "Jeu de plateau à thème",
+    "description" : "Un monopoly sur le thème de la série The Office. Petit projet amateur avec lequel j'ai découvert Gimp et Illustrator, et les tracas de l'impression.",
+    "lien" : "https://docs.google.com/presentation/d/e/2PACX-1vQCb2GiSTs4VPyF6zRM-1_-yzYh_VB1xTs43E97RAORO3DR0DmPhP0IB94N_hQ7oQ/embed?start=false&amp;loop=false&amp;delayms=60000",
     "tags" : [
-        "Bootstrap 5"
+        "Illustrator",
+        "Gimp"
     ],
     "recherche" : "graph"
 },
 "square2" : {
-    "titre" : "Portfolio Universitaire",
-    "soustitre" : "Travaux et compétences universitaires",
-    "description" : "Un site réalisé dans le cadre de ma formation en MMI à l'IUT de Troyes, sur lequel sont répertoriés tous mes travaux, en liens avec les enseignements du référentiel MMI.",
-    "lien" : "https://mmi21g01.mmi-troyes.fr/portfolio_universitaire",
+    "titre" : "A venir",
+    "soustitre" : "Projet à venir",
+    "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi eos atque blanditiis expedita adipisci id, illo cupiditate tempore molestias quis harum perspiciatis fugit! Quod maxime maiores facere libero sed",
+    "lien" : "#",
     "tags" : [
-        "Bootstrap 5"
+        "Tech 1",
+        "Tech 2"
     ]
 },
 "square3" : {
-    "titre" : "Portfolio Universitaire",
-    "soustitre" : "Travaux et compétences universitaires",
-    "description" : "Un site réalisé dans le cadre de ma formation en MMI à l'IUT de Troyes, sur lequel sont répertoriés tous mes travaux, en liens avec les enseignements du référentiel MMI.",
-    "lien" : "https://mmi21g01.mmi-troyes.fr/portfolio_universitaire",
+    "titre" : "A venir",
+    "soustitre" : "Projet à venir",
+    "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi eos atque blanditiis expedita adipisci id, illo cupiditate tempore molestias quis harum perspiciatis fugit! Quod maxime maiores facere libero sed",
+    "lien" : "#",
     "tags" : [
-        "Bootstrap 5"
+        "Tech 1",
+        "Tech 2"
     ]
 },
 "square4" : {
-    "titre" : "Portfolio Universitaire",
-    "soustitre" : "Travaux et compétences universitaires",
-    "description" : "Un site réalisé dans le cadre de ma formation en MMI à l'IUT de Troyes, sur lequel sont répertoriés tous mes travaux, en liens avec les enseignements du référentiel MMI.",
-    "lien" : "https://mmi21g01.mmi-troyes.fr/portfolio_universitaire",
+    "titre" : "A venir",
+    "soustitre" : "Projet à venir",
+    "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi eos atque blanditiis expedita adipisci id, illo cupiditate tempore molestias quis harum perspiciatis fugit! Quod maxime maiores facere libero sed",
+    "lien" : "#",
     "tags" : [
-        "Bootstrap 5"
+        "Tech 1",
+        "Tech 2"
     ]
 },
 "square5" : {
-    "titre" : "Portfolio Universitaire",
-    "soustitre" : "Travaux et compétences universitaires",
-    "description" : "Un site réalisé dans le cadre de ma formation en MMI à l'IUT de Troyes, sur lequel sont répertoriés tous mes travaux, en liens avec les enseignements du référentiel MMI.",
-    "lien" : "https://mmi21g01.mmi-troyes.fr/portfolio_universitaire",
+    "titre" : "A venir",
+    "soustitre" : "Projet à venir",
+    "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi eos atque blanditiis expedita adipisci id, illo cupiditate tempore molestias quis harum perspiciatis fugit! Quod maxime maiores facere libero sed",
+    "lien" : "#",
     "tags" : [
-        "Bootstrap 5"
+        "Tech 1",
+        "Tech 2"
     ],
     "recherche" : "graph"
 },
 "square6" : {
-    "titre" : "Portfolio Universitaire",
-    "soustitre" : "Travaux et compétences universitaires",
-    "description" : "Un site réalisé dans le cadre de ma formation en MMI à l'IUT de Troyes, sur lequel sont répertoriés tous mes travaux, en liens avec les enseignements du référentiel MMI.",
-    "lien" : "https://mmi21g01.mmi-troyes.fr/portfolio_universitaire",
+    "titre" : "A venir",
+    "soustitre" : "Projet à venir",
+    "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi eos atque blanditiis expedita adipisci id, illo cupiditate tempore molestias quis harum perspiciatis fugit! Quod maxime maiores facere libero sed",
+    "lien" : "#",
     "tags" : [
-        "Bootstrap 5"
+        "Tech 1",
+        "Tech 2"
     ],
     "recherche" : "graph"
 },
 "square7" : {
-    "titre" : "Portfolio Universitaire",
-    "soustitre" : "Travaux et compétences universitaires",
-    "description" : "Un site réalisé dans le cadre de ma formation en MMI à l'IUT de Troyes, sur lequel sont répertoriés tous mes travaux, en liens avec les enseignements du référentiel MMI.",
-    "lien" : "https://mmi21g01.mmi-troyes.fr/portfolio_universitaire",
+    "titre" : "A venir",
+    "soustitre" : "Projet à venir",
+    "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi eos atque blanditiis expedita adipisci id, illo cupiditate tempore molestias quis harum perspiciatis fugit! Quod maxime maiores facere libero sed",
+    "lien" : "#",
     "tags" : [
-        "Bootstrap 5"
+        "Tech 1",
+        "Tech 2"
     ],
     "recherche" : "dev"
 },
 "square8" : {
-    "titre" : "Portfolio Universitaire",
-    "soustitre" : "Travaux et compétences universitaires",
-    "description" : "Un site réalisé dans le cadre de ma formation en MMI à l'IUT de Troyes, sur lequel sont répertoriés tous mes travaux, en liens avec les enseignements du référentiel MMI.",
-    "lien" : "https://mmi21g01.mmi-troyes.fr/portfolio_universitaire",
+    "titre" : "A venir",
+    "soustitre" : "Projet à venir",
+    "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi eos atque blanditiis expedita adipisci id, illo cupiditate tempore molestias quis harum perspiciatis fugit! Quod maxime maiores facere libero sed",
+    "lien" : "#",
     "tags" : [
-        "Bootstrap 5"
+        "Tech 1",
+        "Tech 2"
     ],
     "recherche" : "dev"
 },
 "square9" : {
-    "titre" : "Portfolio Universitaire",
-    "soustitre" : "Travaux et compétences universitaires",
-    "description" : "Un site réalisé dans le cadre de ma formation en MMI à l'IUT de Troyes, sur lequel sont répertoriés tous mes travaux, en liens avec les enseignements du référentiel MMI.",
-    "lien" : "https://mmi21g01.mmi-troyes.fr/portfolio_universitaire",
+    "titre" : "A venir",
+    "soustitre" : "Projet à venir",
+    "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi eos atque blanditiis expedita adipisci id, illo cupiditate tempore molestias quis harum perspiciatis fugit! Quod maxime maiores facere libero sed",
+    "lien" : "#",
     "tags" : [
-        "Bootstrap 5"
+        "Tech 1",
+        "Tech 2"
     ],
     "recherche" : "graph"
 },
