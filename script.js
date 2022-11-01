@@ -378,5 +378,31 @@ boutonGraph.addEventListener('click', function(){
     })
 })
 
-/*changement de couleur des boutons de la galerie*/
+/*navbar-----------*/
+/*fixed-on-top*/
+const navbar = document.querySelector('.navbar')
+window.addEventListener('scroll', function(ev) {
+
+    let distancez2 = document.getElementById('z2').getBoundingClientRect().top
+ if(distancez2 < 0 && navbar.style.position != 'sticky'){
+    gsap.fromTo(navbar, {
+        y:-50
+    
+    },{
+        y:0,
+        position:'sticky',
+        duration:0.1
+    })
+}
+    
+else if(distancez2 > 50 && navbar.style.position == 'sticky'){
+    gsap.to(navbar,{
+        position : 'static'
+    })
+}
+   
+ });
+
+
+
 
