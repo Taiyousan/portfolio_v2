@@ -245,6 +245,28 @@ gsap.from(underline,{
 })
 })
 
+const profileText = document.querySelectorAll('.profile-info')
+let iText = 0
+profileText.forEach(function(text){
+    gsap.from(text,{
+    duration : 0.4,
+    delay : iText,
+    scrollTrigger : text,
+    x:200,
+    opacity:0
+    })
+    iText += 0.4
+})
+
+const maphoto = document.getElementById('talkbubble')
+gsap.from(maphoto,{
+    duration : 0.4,
+    delay : 0.4,
+    scrollTrigger : maphoto,
+    x:-200,
+    opacity:0,
+})
+
 /*boutons categories*/
 /*all*/
 const galleryContainer = document.querySelector('.gallery-container')
@@ -314,7 +336,8 @@ cards.forEach(function(card){
     }
 })
 gsap.to('.gallery-container',{
-    display:'flex'
+    display:'flex',
+    absolute:true
 })
 
 }
@@ -422,9 +445,31 @@ else if(distancez2 > 50 && navbar.style.position == 'sticky'){
 
  gsap.to(boutonHome,{
     opacity:1,
-    duration:0.1,
+    duration:0.01,
     delay:2.5
  })
+
+ /* flip skills */
+
+ gsap.set(".profile-skills-container", {
+    transformStyle: "preserve-3d",
+    transformPerspective: 1000
+  });
+
+  const skills = document.querySelectorAll('.skills-icon')
+let iSkill = 0
+skills.forEach(function(skill){
+
+console.log(iSkill)
+gsap.from(skill,{
+delay : iSkill,
+scrollTrigger:'.profile-skills-container',
+rotationY:360,  
+opacity:0
+})
+iSkill += 0.3  
+})
+
 
 
 

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="gsap/minified/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/picto.png">
 
     <!-- STYLE ----- -->
     <link rel="stylesheet" href="style.css">
@@ -27,6 +28,7 @@
     </section>
 <nav class="navbar">
     <div class="navbar-container">
+
         <a class="navbar-item" href="#z1">ACCUEIL</a>
         <a class="navbar-item" href="#z2">PRODUCTIONS</a>
         <a class="navbar-item" href="#z3">A PROPOS</a>
@@ -67,7 +69,49 @@
         </div>
     </section>
     <section id="z3">
-        <div class="title-container"><h4 class="title">A propos de moi</h4><div class="underline"></div></div>
+        <div class="title-container">
+            <h4 class="title">A propos de moi</h4>
+            <div class="underline"></div></div>
+            <div class="profile-container">
+                <div id="talkbubble"></div>
+                <div class="profile-info-container">
+                    <div class="profile-info">
+                        <img src="icons/school.svg" class="profile-icon">
+                        <div class="profile-text-container">
+                            <p class="profile-text text-larger">Etudiant en <span class="text-blue">M</span>étiers du <span class="text-blue">M</span>ultimédia et de l'<span class="text-blue">I</span>nternet à l'IUT de Troyes</p>
+                            <p class="text-smaller text-red">Je suis actuellement en deuxième année. Des études franchement passionnantes !</p>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-info">
+                        <img src="icons/school.svg" class="profile-icon">
+                        <div class="profile-text-container">
+                            <p class="profile-text text-larger">Diplômé d'une licence de <span class="text-blue">Lettres</span> à l'Université Lyon III</p>
+                            <p class="text-smaller text-red">Ça peut toujours servir...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-info">
+                        <img src="icons/school.svg" class="profile-icon">
+                        <div class="profile-text-container">
+                            <p class="profile-text text-larger">Passionné par le développement web, <span class="text-blue">Front</spa> comme <span class="text-blue">Back</span></p>
+                            <p class="text-smaller text-red">D'ailleurs, je recherche un contrat en alternance ! Vous avez pas un poste de libre ?</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="profile-skills-container margin-top">
+                <img src="icons/html.svg" alt="" class="skills-icon" onmouseover="rotateSkill(this)">
+                <img src="icons/css.svg" alt="" class="skills-icon">
+                <img src="icons/php.svg" alt="" class="skills-icon">
+            </div>
+            <div class="profile-skills-container">
+                <img src="icons/js.svg" alt="" class="skills-icon">
+                <img src="icons/sf.svg" alt="" class="skills-icon">
+                <img src="icons/bootstrap.svg" alt="" class="skills-icon">
+            </div>
     </section>
         
     </div>
