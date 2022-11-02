@@ -572,12 +572,29 @@ nav{
     border-radius: 5px;
 }
 
+/*page de confirmation du mail */
+.confirm-container{
+    height: 50%;
+    width: 50%;
+    background-color: var(--color-background);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.redirect-message {
+    position: absolute;
+    bottom: 20px;
+}
+
+
 
 
 /* FOOTER ********/
-
-
 footer {
     height: 200px;
     background-color: var(--color-background-black);
 }
+
