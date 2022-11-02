@@ -17,9 +17,9 @@
     <?php
     $to = 'shams.benhamou@etudiant.univ-reims.fr';
     $subject = $_POST['sujet'];
-    $message = $_POST['message'];
+    $message = $_POST['mail'] ."\r\n". $_POST['message'];
     $headers = "From: portfolio@mmi-troyes.fr" . "\r\n" .
-    "CC:".$_POST['mail'] . "\r\n" . $_POST['firstname'] ;
+    "CC: ".$_POST['mail'] . "\r\n" . $_POST['firstname'] ;
 
     $retour = mail($to, $subject, $message, $headers);
     if ($retour){
@@ -47,8 +47,6 @@
         </div>
     </div>';
     }
-
-    echo $_POST['sujet'], $_POST['message'], 'From:portfolio@mmi-troyes.fr', $_POST['firstname'], $_POST['mail'];
     ?>
 
 <script type="text/javascript" src="confirm.js"></script>
