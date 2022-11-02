@@ -1,5 +1,5 @@
 const box = document.querySelector('.confirm-container')
-console.log(box)
+
 
 gsap.from(box,{
     x:500,

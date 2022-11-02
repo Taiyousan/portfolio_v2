@@ -146,7 +146,6 @@ const modalArray = {
 },
 };
 
-console.log(modalArray)
 Object.entries(modalArray).forEach(function(element, index){
 document.querySelector('.gallery-container').innerHTML += ` <div class="card `+element[1]['recherche']+`"style="background-image: url('img/`+element[0]+`.jpg')">
             <div class="card-text">
@@ -159,14 +158,12 @@ document.querySelector('.gallery-container').innerHTML += ` <div class="card `+e
                 </a>
             </div>
         </div>`;
-        console.log(element[1]['titre'])
 })
 
 /*MAKE MODAL APPEAR*/
 function display(){
     let modalID = this.id;
     let tags = modalArray[modalID]['tags'];
-    console.log(tags)
 
     gsap.to(modal,{
         opacity:1,
@@ -176,7 +173,6 @@ function display(){
     gsap.to(modalContent,{
         scale:1
     })
-    console.log(modalH1)
     modalBG.style.background = "url('slides/" + modalID + ".jpg')"
     modalBG.style.backgroundSize = 'cover'
     modalH1.innerHTML = modalArray[modalID]['titre'];
@@ -217,10 +213,8 @@ modalClose.addEventListener('click', hide);
 
 const cards = document.querySelectorAll('.card')
 let i = 0
-console.log(cards)
 cards.forEach(function(card){
 
-console.log(i)
 gsap.from(card,{
 delay : i,
 scrollTrigger:'.gallery-container',
@@ -232,7 +226,6 @@ i += 0.3
 
 const titles = document.querySelectorAll('.title')
 titles.forEach(function(title){
-console.log('ok')
 gsap.from(title,{
     delay : 0.2,
     scrollTrigger : title,
@@ -327,10 +320,8 @@ boutonAll.addEventListener('click', function(){
 /*boutondev*/
 const boutonDev = document.querySelector('.dev')
 function boutonDevDisplay(){
-console.log(this)
 cards.forEach(function(card){
     if(card.classList.contains('dev')){
-        console.log(this)
         gsap.to(card,{
             display:'block',
             scale:1,
@@ -371,10 +362,8 @@ boutonDev.addEventListener('click', function(){
 const boutonGraph = document.querySelector('.graph')
 
 function boutonGraphDisplay(){
-console.log(this)
 cards.forEach(function(card){
     if(card.classList.contains('graph')){
-        console.log(this)
         gsap.to(card,{
             display:'block',
             scale:1,
@@ -468,7 +457,6 @@ else if(distancez2 > 50 && navbar.style.position == 'sticky'){
 let iSkill = 0
 skills.forEach(function(skill){
 
-console.log(iSkill)
 gsap.from(skill,{
 delay : iSkill,
 scrollTrigger:'.profile-skills-container',
