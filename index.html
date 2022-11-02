@@ -102,20 +102,42 @@
                 
             </div>
 
-            <div class="profile-skills-container margin-top">
+            <h4 class="title margin-top text-red subtext">Mes compétences</h4>
+            <div class="profile-skills-container">
                 <img src="icons/html.svg" alt="" class="skills-icon" onmouseover="rotateSkill(this)">
                 <img src="icons/css.svg" alt="" class="skills-icon">
                 <img src="icons/php.svg" alt="" class="skills-icon">
             </div>
-            <div class="profile-skills-container">
+            <div class="profile-skills-container" id="skills-container2">
                 <img src="icons/js.svg" alt="" class="skills-icon">
                 <img src="icons/sf.svg" alt="" class="skills-icon">
                 <img src="icons/bootstrap.svg" alt="" class="skills-icon">
             </div>
             
     </section>
-        
-    </div>
+
+    <section id="z4">
+        <div class="title-container">
+            <h4 class="title text-white">Me contacter</h4>
+            <div class="underline underline-white"></div>
+        </div>
+        <div class="form-container">
+            <form action="mail.php" method="POST" class="form-mail">
+                <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+
+                <input type="email" id="fmail" name="mail" placeholder="Votre adresse mail">
+
+                <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+
+                <textarea id="subject" name="message" placeholder="Votre message" style="height:200px"></textarea>
+
+                <input type="submit" value="Envoyer" id="form-submit">
+            </form>
+        </div>
+    </section>
+        <footer>
+
+        </footer>
 
     <script type="text/javascript" src="script.js"></script>
 </body>
