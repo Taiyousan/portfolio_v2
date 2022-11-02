@@ -478,6 +478,11 @@ opacity:0
 iSkill += 0.3  
 })
 
+/* footer */
+const socials = document.querySelectorAll('.social')
+
+
+
 
 
 
