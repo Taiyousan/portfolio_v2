@@ -204,3 +204,16 @@ overflow-y: scroll;
     background-repeat: no-repeat !important;
     background-position: center !important;
 }
+
+/* bulle de confirmation d'envoi de mail */
+.confirm-container {
+    width: 80% !important;
+}
+
+.confirm-container > * {
+    margin-left: 20px;
+}
+
+.redirect-message {
+    margin-left: 0 !important;
+}
