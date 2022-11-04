@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="gsap/minified/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    
+    <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 480px)" href="style.mobile.css" />
     <link rel="icon" type="image/x-icon" href="img/picto.png">
 
     <!-- STYLE ----- -->

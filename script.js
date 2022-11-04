@@ -230,6 +230,7 @@ if(e == 'default'){
 }
 }
 const boutonAll = document.querySelector('.all')
+const cards = document.querySelectorAll('.card')
 function boutonAllDisplay(){
 cards.forEach(function(card){
     gsap.to(card,{
