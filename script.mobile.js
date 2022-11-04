@@ -1,4 +1,7 @@
 if (window.matchMedia("(max-width: 480px)").matches) {
+
+
+
     console.log('Version mobile')
 
     const hamburgers = document.querySelector('.hamburger-container')
@@ -35,6 +38,7 @@ menuItem.forEach(function(item){
             })
             gsap.to(menuItem,{
                 opacity:0,
+                display:'none'
             })
             closeFlag = false
       })
@@ -65,7 +69,8 @@ menuItem.forEach(function(item){
         })
         gsap.to(menuItem,{
             opacity:1,
-            delay:0.2
+            delay:0.2,
+            display:'block'
         })
         
         closeFlag = true
@@ -93,8 +98,73 @@ menuItem.forEach(function(item){
         })
         gsap.to(menuItem,{
             opacity:0,
+            display:'none'
         })
         closeFlag = false
     }
     })
+
+    const cards = document.querySelectorAll('.card')
+
+    cards.forEach(function(card){
+        gsap.from(card, {
+            scrollTrigger:card,
+            opacity:0,
+            rotationX:100
+        })
+    })
+
+    const titles = document.querySelectorAll('.title')
+    titles.forEach(function(title){
+      gsap.from(title, {
+          scrollTrigger:title,
+              opacity:0,
+              rotationX:100,
+              duration:1
+      })
+    })
+    const underlines = document.querySelectorAll('.underline')
+    underlines.forEach(function(underline){
+      gsap.from(underline, {
+          scrollTrigger:underline,
+              opacity:0,
+              y:100,
+              duration:1
+      })
+    })
+
+    const photo = document.getElementById('talkbubble')
+    gsap.from(photo, {
+        scrollTrigger:photo,
+            opacity:0,
+            rotationX:100,
+            duration:1
+    })
+
+    const profiles = document.querySelectorAll('.profile-info')
+    profiles.forEach(function(profile){
+      gsap.from(profile, {
+          scrollTrigger:profile,
+              opacity:0,
+              y:100,
+              duration:1
+      })
+    })
+
+
+
+const socials = document.querySelectorAll('.social-box')
+let iSocial = 0
+socials.forEach(function(social){
+
+gsap.from(social,{
+delay : iSocial,
+scrollTrigger:'footer',
+rotationY:360,  
+opacity:0
+})
+iSocial += 0.3  
+})
   } 
+
+

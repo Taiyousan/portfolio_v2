@@ -209,65 +209,6 @@ function hide(e){
 modal.addEventListener('click', hide);
 modalClose.addEventListener('click', hide);
 
-/*slide In anim*/
-
-const cards = document.querySelectorAll('.card')
-let i = 0
-cards.forEach(function(card){
-
-gsap.from(card,{
-delay : i,
-scrollTrigger:'.gallery-container',
-x:200,
-opacity:0
-})
-i += 0.3  
-})
-
-const titles = document.querySelectorAll('.title')
-titles.forEach(function(title){
-gsap.from(title,{
-    delay : 0.2,
-    scrollTrigger : title,
-    x:200,
-    opacity:0
-})
-})
-
-const underlines = document.querySelectorAll('.underline')
-underlines.forEach(function(underline){
-gsap.from(underline,{
-    duration : 0.4,
-    delay : 0.4,
-    scrollTrigger : underline,
-    x:200,
-    opacity:0,
-    backgroundColor : 'green'
-})
-})
-
-const profileText = document.querySelectorAll('.profile-info')
-let iText = 0
-profileText.forEach(function(text){
-    gsap.from(text,{
-    duration : 0.4,
-    delay : iText,
-    scrollTrigger : text,
-    x:200,
-    opacity:0
-    })
-    iText += 0.4
-})
-
-const maphoto = document.getElementById('talkbubble')
-gsap.from(maphoto,{
-    duration : 0.4,
-    delay : 0.4,
-    scrollTrigger : maphoto,
-    x:-200,
-    opacity:0,
-})
-
 /*boutons categories*/
 /*all*/
 const galleryContainer = document.querySelector('.gallery-container')
@@ -398,6 +339,87 @@ boutonGraph.addEventListener('click', function(){
     })
 })
 
+ /* flip skills */
+
+ gsap.set(".profile-skills-container", {
+    transformStyle: "preserve-3d",
+    transformPerspective: 1000
+  });
+
+  const skills = document.querySelectorAll('.skills-icon')
+let iSkill = 0
+skills.forEach(function(skill){
+
+gsap.from(skill,{
+delay : iSkill,
+scrollTrigger:'.profile-skills-container',
+rotationY:360,  
+opacity:0
+})
+iSkill += 0.3  
+})
+
+if (window.matchMedia("(min-width: 480px)").matches){
+/*slide In anim*/
+
+const cards = document.querySelectorAll('.card')
+let i = 0
+cards.forEach(function(card){
+
+gsap.from(card,{
+delay : i,
+scrollTrigger:'.gallery-container',
+x:200,
+opacity:0
+})
+i += 0.3  
+})
+
+const titles = document.querySelectorAll('.title')
+titles.forEach(function(title){
+gsap.from(title,{
+    delay : 0.2,
+    scrollTrigger : title,
+    x:200,
+    opacity:0
+})
+})
+
+const underlines = document.querySelectorAll('.underline')
+underlines.forEach(function(underline){
+gsap.from(underline,{
+    duration : 0.4,
+    delay : 0.4,
+    scrollTrigger : underline,
+    x:200,
+    opacity:0,
+    backgroundColor : 'green'
+})
+})
+
+const profileText = document.querySelectorAll('.profile-info')
+let iText = 0
+profileText.forEach(function(text){
+    gsap.from(text,{
+    duration : 0.4,
+    delay : iText,
+    scrollTrigger : text,
+    x:200,
+    opacity:0
+    })
+    iText += 0.4
+})
+
+const maphoto = document.getElementById('talkbubble')
+gsap.from(maphoto,{
+    duration : 0.4,
+    delay : 0.4,
+    scrollTrigger : maphoto,
+    x:-200,
+    opacity:0,
+})
+
+
 /*navbar-----------*/
 /*fixed-on-top*/
 const navbar = document.querySelector('.navbar')
@@ -448,32 +470,14 @@ const positioned = 'sticky'
     delay:2.5
  })
 
- /* flip skills */
 
- gsap.set(".profile-skills-container", {
-    transformStyle: "preserve-3d",
-    transformPerspective: 1000
-  });
-
-  const skills = document.querySelectorAll('.skills-icon')
-let iSkill = 0
-skills.forEach(function(skill){
-
-gsap.from(skill,{
-delay : iSkill,
-scrollTrigger:'.profile-skills-container',
-rotationY:360,  
-opacity:0
-})
-iSkill += 0.3  
-})
 
 /* footer */
 const socials = document.querySelectorAll('.social')
 
 
 
-
+}
 
 
 
