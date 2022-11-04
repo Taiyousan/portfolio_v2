@@ -45,8 +45,10 @@
 
 .navbar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse !important;
     border-bottom: var(--color-bleu) solid 3px;
+    position: fixed !important;
+    top:0;
 }
 
 .hamburger-container {
@@ -56,9 +58,10 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 40px;
 }
 
 .mobile-hamburger {
@@ -68,8 +71,7 @@
     height: 4px;
 }
 
-.hamburger-item{
-    
+.hamburger-item{    
     color: white;
 }
 
@@ -78,6 +80,74 @@
     justify-content: space-between;
     height: 0px;
     opacity: 0;
-    padding-left: 40px;
+    padding-right: 40px;
+    text-align: end;
 }
 
+/* cartes */
+
+.gallery-container {
+    width: 100% !important;
+}
+.card {
+    width: 100% !important;
+}
+
+h4{
+    font-size: 20 !important;
+}
+
+.underline {
+    height: 2px !important;
+    width: 80px !important;
+}
+
+.gallery-bouton {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 15px !important;
+}
+
+.profile-container {
+    flex-direction: column;
+    width: 100% !important;
+}
+
+#z3 {
+    width: 100% !important;
+}
+
+#talkbubble {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    
+    border-radius: 0px !important;
+}
+
+.profile-info {
+    padding-top: 50px;
+}
+
+.profile-icon {
+    max-width: 30px !important;
+}
+
+.profile-skills-container {
+    width: 80% !important;
+}
+
+footer {
+    width: 100% !important;
+    height: fit-content !important;
+}
+
+.social-box img{
+    max-width: 30px !important;
+    min-width: 30px !important;
+}
+
+.container-socials {
+   flex-direction: column !important;
+   padding-top: 50px;
+   padding-bottom: 80px;
+}

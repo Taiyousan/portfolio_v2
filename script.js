@@ -402,27 +402,28 @@ boutonGraph.addEventListener('click', function(){
 /*fixed-on-top*/
 const navbar = document.querySelector('.navbar')
 const positioned = 'sticky'
-window.addEventListener('scroll', function(ev) {
+    window.addEventListener('scroll', function(ev) {
 
     let distancez2 = document.getElementById('z2').getBoundingClientRect().top
- if(distancez2 < 0 && navbar.style.position != positioned){
-    gsap.fromTo(navbar, {
-        y:-50
-    
-    },{
-        y:0,
-        position:positioned,
-        duration:0.1
-    })
-}
-    
-else if(distancez2 > 50 && navbar.style.position == positioned){
-    gsap.to(navbar,{
-        position : 'static'
-    })
-}
-   
- });
+     if(distancez2 < 0 && navbar.style.position != positioned){
+        gsap.fromTo(navbar, {
+            y:-50
+        
+        },{
+            y:0,
+            position:positioned,
+            duration:0.1
+        })
+    }
+        
+    else if(distancez2 > 50 && navbar.style.position == positioned){
+        gsap.to(navbar,{
+            position : 'static'
+        })
+    }
+       
+     });
+
 
  /* animation du nom sur la page d'accueil */
  const myname = document.getElementById('myname')
