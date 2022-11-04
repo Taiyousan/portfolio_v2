@@ -208,7 +208,7 @@ h4{
 
 .gallery-container .card:hover {
     background-color: var(--color-background);
-    background-image: url('img/color-def.jpg') !important;
+    background-image: url('img/color-def.webp') !important;
 }
 
 
@@ -477,7 +477,7 @@ transition: 0.2s;
     width: 500px;
     height: 500px;
     border-radius: 20px;
-    background-image: url('img/shams.jpg');
+    background-image: url('img/shams.webp');
     background-size: cover;
     background-position: center;
 }

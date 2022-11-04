@@ -147,7 +147,7 @@ const modalArray = {
 };
 
 Object.entries(modalArray).forEach(function(element, index){
-document.querySelector('.gallery-container').innerHTML += ` <div class="card `+element[1]['recherche']+`"style="background-image: url('img/`+element[0]+`.jpg')">
+document.querySelector('.gallery-container').innerHTML += ` <div class="card `+element[1]['recherche']+`"style="background-image: url('img/`+element[0]+`.webp')">
             <div class="card-text">
                 <p>`+element[1]['titre']+`</p>
                 <p class="sub-text">`+element[1]['soustitre']+`</p>
