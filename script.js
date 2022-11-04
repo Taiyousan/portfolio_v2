@@ -360,6 +360,28 @@ opacity:0
 iSkill += 0.3  
 })
 
+const myname = document.getElementById('myname')
+const mynamePrenom = document.querySelector('.prenom')
+const mynameNom = document.querySelector('.nom')
+const boutonHome = document.querySelector('.button-home')
+
+gsap.from(mynamePrenom, {
+   opacity:0,
+   duration:0.1,
+   delay:0.5
+})
+gsap.from(mynameNom, {
+   opacity:0,
+   duration:0.1,
+   delay:1.5
+})
+
+gsap.to(boutonHome,{
+   opacity:1,
+   duration:0.01,
+   delay:2.5
+})
+
 if (window.matchMedia("(min-width: 480px)").matches){
 /*slide In anim*/
 
@@ -449,27 +471,7 @@ const positioned = 'sticky'
 
 
  /* animation du nom sur la page d'accueil */
- const myname = document.getElementById('myname')
- const mynamePrenom = document.querySelector('.prenom')
- const mynameNom = document.querySelector('.nom')
- const boutonHome = document.querySelector('.button-home')
 
- gsap.from(mynamePrenom, {
-    opacity:0,
-    duration:0.1,
-    delay:0.5
- })
- gsap.from(mynameNom, {
-    opacity:0,
-    duration:0.1,
-    delay:1.5
- })
-
- gsap.to(boutonHome,{
-    opacity:1,
-    duration:0.01,
-    delay:2.5
- })
 
 
 
