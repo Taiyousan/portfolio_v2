@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="gsap/minified/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 480px)" href="style.mobile.css" />
     <link rel="icon" type="image/x-icon" href="img/picto.png">
 
     <!-- STYLE ----- -->
@@ -28,11 +29,23 @@
     </section>
 <nav class="navbar">
     <div class="navbar-container">
-
         <a class="navbar-item" href="#z1">ACCUEIL</a>
         <a class="navbar-item" href="#z2">PRODUCTIONS</a>
         <a class="navbar-item" href="#z3">A PROPOS</a>
         <a class="navbar-item" href="#z4">CONTACT</a>
+    </div>
+
+    <div class="hamburger-container">
+        <span class="mobile-hamburger" id="hamburger1"></span>
+            <span class="mobile-hamburger" id="hamburger2"></span>
+            <span class="mobile-hamburger" id="hamburger3"></span>
+    </div>
+
+    <div class="hamburger-menu">
+        <a class="hamburger-item" href="#z1">ACCUEIL</a>
+        <a class="hamburger-item" href="#z2">PRODUCTIONS</a>
+        <a class="hamburger-item" href="#z3">A PROPOS</a>
+        <a class="hamburger-item" href="#z4">CONTACT</a>
     </div>
 </nav>
     <section id="z2">
@@ -156,6 +169,7 @@
         </footer>
 
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.mobile.js"></script>
 </body>
 
 

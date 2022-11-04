@@ -401,21 +401,22 @@ boutonGraph.addEventListener('click', function(){
 /*navbar-----------*/
 /*fixed-on-top*/
 const navbar = document.querySelector('.navbar')
+const positioned = 'sticky'
 window.addEventListener('scroll', function(ev) {
 
     let distancez2 = document.getElementById('z2').getBoundingClientRect().top
- if(distancez2 < 0 && navbar.style.position != 'sticky'){
+ if(distancez2 < 0 && navbar.style.position != positioned){
     gsap.fromTo(navbar, {
         y:-50
     
     },{
         y:0,
-        position:'sticky',
+        position:positioned,
         duration:0.1
     })
 }
     
-else if(distancez2 > 50 && navbar.style.position == 'sticky'){
+else if(distancez2 > 50 && navbar.style.position == positioned){
     gsap.to(navbar,{
         position : 'static'
     })
