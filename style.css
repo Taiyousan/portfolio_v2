@@ -342,7 +342,7 @@ transition: 0.2s;
   .modal-content {
     background-color: #fefefe;
     width: 800px; /* Could be more or less, depending on screen size */
-    height: 90%;
+    height: fit-content;
     transform: scale(0);
   }
 
@@ -363,6 +363,7 @@ transition: 0.2s;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 20px;
+    margin-bottom: 20px;
     position: relative;
   }
 
@@ -370,13 +371,17 @@ transition: 0.2s;
     color : var(--color-grey-on-white)
   }
 
+  .modal-link-container {
+    display: flex;
+    justify-content: end;
+  }
+
   .modal-desc a.modal-link {
-    position: absolute;
-    right: 0;
-    top: 140;
     transition: 0.2s;
     border : 2px solid var(--color-rouge);
     padding: 5px;
+    margin-bottom: 0px;
+    justify-self: flex-end;
   }
 
   .modal-desc a.modal-link:hover {
