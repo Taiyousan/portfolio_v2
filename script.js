@@ -59,14 +59,13 @@ const modalArray = {
     ],
     "recherche" : "graph"
 },
-"square2" : {
-    "titre" : "A venir",
-    "soustitre" : "Projet à venir",
-    "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi eos atque blanditiis expedita adipisci id, illo cupiditate tempore molestias quis harum perspiciatis fugit! Quod maxime maiores facere libero sed",
-    "lien" : "#",
+"videocafe" : {
+    "titre" : "Pub Café Grand-Mère",
+    "soustitre" : "Projet vidéo réalisé en équipe",
+    "description" : "Une vidéo réalisée en équipe dans le cadre des cours d'audiovisuel, de l'écriture au montage final.",
+    "lien" : "videos/pub_cafe_final.mp4",
     "tags" : [
-        "Tech 1",
-        "Tech 2"
+        "Adobe Premiere"
     ]
 },
 "square3" : {

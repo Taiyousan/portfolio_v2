@@ -201,6 +201,7 @@ h4{
     height: 300px;
     width: 300px;
     background-size: cover;
+    background-position: center;
     transition:  0.2s;
     position: relative;
     opacity: 1;
@@ -357,6 +358,7 @@ transition: 0.2s;
     height: 100%;
     width: 100%;
     background-size: cover;
+    background-position: center;
   }
 
   .modal-desc {
