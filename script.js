@@ -66,7 +66,8 @@ const modalArray = {
     "lien" : "videos/pub_cafe_final.mp4",
     "tags" : [
         "Adobe Premiere"
-    ]
+    ],
+    "recherche" : "graph"
 },
 "square3" : {
     "titre" : "A venir",
