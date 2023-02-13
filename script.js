@@ -31,7 +31,7 @@ const modalArray = {
     "titre" : "La malette du Prof Chen",
     "soustitre" : "Mini-jeu JS",
     "description" : "Un mini-jeu très simple pour m'exercer au JavaScript et au JQuery. Découvrez les évolutions des Pokémon offerts par le Professeur Chen !",
-    "lien" : "https://mmi21g01.mmi-troyes.fr/autres_pages/pointclick_pokemon",
+    "lien" : "https://mmi21g01.mmi-troyes.fr/autres_pages/professeurchen/",
     "tags" : [
         "JavaScript",
         "JQuery"
